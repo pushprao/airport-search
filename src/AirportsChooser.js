@@ -37,6 +37,7 @@ function AirportsChooser() {
             {/*Airport chooser button*/}
             {!selectionMode &&
             <Button variant="contained" color="primary"
+                    id={"airport-chooser-btn"}
                     className={styles.button}
                     onClick={() => {
                         setSelectionMode(true)
